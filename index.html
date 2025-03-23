@@ -1,1 +1,200 @@
-<h1>Innosolve Video Test Page</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innosolve Videos Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .video-item {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .video-item h3 {
+            padding: 10px;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .url-display {
+            background: #eee;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: monospace;
+            margin-top: 5px;
+            font-size: 12px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <h1>Innosolve Videos Test</h1>
+    <p>This page tests all videos to ensure they're properly hosted on GitHub Pages. Use the video URLs below in your website.</p>
+    
+    <div class="video-grid">
+        <div class="video-item">
+            <h3>Video 1</h3>
+            <video controls muted loop>
+                <source src="videos/13047174_1920_1080_30fps%20(online-video-cutter.com).mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/13047174_1920_1080_30fps%20(online-video-cutter.com).mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 2</h3>
+            <video controls muted loop>
+                <source src="videos/1851190-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/1851190-uhd_3840_2160_25fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 3</h3>
+            <video controls muted loop>
+                <source src="videos/3009534-hd_1920_1080_24fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/3009534-hd_1920_1080_24fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 4</h3>
+            <video controls muted loop>
+                <source src="videos/4974708-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/4974708-hd_1920_1080_25fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 5</h3>
+            <video controls muted loop>
+                <source src="videos/5790079-hd_1920_1080_30fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/5790079-hd_1920_1080_30fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 6</h3>
+            <video controls muted loop>
+                <source src="videos/5829173-uhd_2160_3840_24fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/5829173-uhd_2160_3840_24fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 7</h3>
+            <video controls muted loop>
+                <source src="videos/6176550-uhd_4096_2160_30fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/6176550-uhd_4096_2160_30fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 8</h3>
+            <video controls muted loop>
+                <source src="videos/8421355-uhd_3840_2160_25fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/8421355-uhd_3840_2160_25fps.mp4
+            </div>
+        </div>
+        
+        <div class="video-item">
+            <h3>Video 9</h3>
+            <video controls muted loop>
+                <source src="videos/8489506-hd_1920_1080_30fps.mp4" type="video/mp4">
+            </video>
+            <div class="url-display">
+                https://dantemagg.github.io/innosolve-assets/videos/8489506-hd_1920_1080_30fps.mp4
+            </div>
+        </div>
+    </div>
+    
+    <h2>How to Use These Videos</h2>
+    <p>To use these videos in your website, copy the URL under each video and use it in your HTML like this:</p>
+    <pre>
+&lt;video autoplay muted loop playsinline&gt;
+    &lt;source src="https://dantemagg.github.io/innosolve-assets/videos/FILENAME.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+    </pre>
+    
+    <p>For hover effects, you can use CSS:</p>
+    <pre>
+&lt;div class="video-container"&gt;
+    &lt;video 
+        src="https://dantemagg.github.io/innosolve-assets/videos/FILENAME.mp4" 
+        class="hover-video"
+        muted
+        loop
+        playsinline&gt;&lt;/video&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+.video-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.hover-video {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.video-container:hover .hover-video {
+    transform: scale(1.1);
+}
+.video-container:hover video {
+    /* This will autoplay the video on hover */
+}
+&lt;/style&gt;
+
+&lt;script&gt;
+// For videos that autoplay on hover
+document.querySelectorAll('.video-container').forEach(container => {
+    const video = container.querySelector('video');
+    
+    container.addEventListener('mouseenter', () => {
+        video.play();
+    });
+    
+    container.addEventListener('mouseleave', () => {
+        video.pause();
+        // Optional: reset to first frame
+        video.currentTime = 0;
+    });
+});
+&lt;/script&gt;
+    </pre>
+</body>
+</html>
